@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+
+
+    <style>
+
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto; 
+            
+        }
+
+        .grid-container2{
+            display: grid;
+            grid-template-columns: auto auto auto; 
+            
+        }
+        .grid-items{
+            color:white;
+            background-color:green;
+            margin-left: 2px;
+            
+        }
+
+        .grid-items2{
+           
+          text-align: center;
+          background-color: red;
+        }
+
+       .item2{
+        background-color: rgb(13, 181, 211);
+        grid-column-start:2;
+        grid-column-end:3;
+
+       }
+
+    </style>
+</head>
+<body>
+    
+
+
+    Grid Layout
+    <div class="grid-container">
+
+        <div class="grid-items">1</div>
+        <div class="grid-items">2</div>
+        <div class="grid-items">3</div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="grid-container2">
+
+        <div class="grid-items2">1</div>
+        <div class="grid-items2 item2">2</div>
+        
+        
+    </div>
+
+    
+</body>
+</html>
